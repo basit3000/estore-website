@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/*Global*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+.button_1{
+    height:38px ;
+    border: none;
+    background: #e8491d;
+    padding-left:40px;
+    padding-right:40px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 40%;
+    border-radius: 8px;    
+}
+.ab{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dark2{
+    background: #35424a;
+    color: #ffffff;
+    padding: 30px;
+    margin: auto;
+    width: 50%;
+}
+
+/*header*/
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+/*showcase*/
+#showcase {
+    min-height: 400px;
+    background: url('../img/showcase.jpg') no-repeat 0 -1000px;
+    text-align: center;
+    
+   
+}
+#showcase h1{
+    font-size:50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+   
+    border: none;
+}
+#showcase p{
+    font-size: 20px;
+    color: dark grey;
+}
+
+/*boxes*/
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#boxes .box img{
+    width: 90px;
+}
+/*sidebar*/
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/*login page*/
+aside#loginsidebar .loginform input,aside#lgoinsidebar .loginform textarea{
+    width: 90%;
+    padding: 20px;
+}
+
+
+/*footer*/
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center; 
+    color: #ffffff;
+    background-color:#e8491d; 
+    
+}
+table, tr, td {
+  border: 3px solid red;
+}
+tr.noBorder td {
+  border: 0;
+}
+
+table.borderless {
+
+border-width: 0px;
+
+background-color: white;
+
+font-family: Verdana, Arial, Helvetica, sans-serif;
+
+font-weight: bold;
+
+font-size: 1.2em;
+
+text-align: center;
+
+text-transform: none;
+
+}
+
+ 
+
+table.borderless th {
+
+    border-width: 0px;
+
+    padding: 5px;
+
+    background-color: white;   
+
+}
+
+ 
+
+table.borderless td {
+
+    border-width: 0px;
+
+    padding: 5px;
+
+    background-color: white;
+
+ 
+
